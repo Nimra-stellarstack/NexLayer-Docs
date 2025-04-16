@@ -8,10 +8,15 @@ theme:
   language: en
   palette:
    - scheme: slate #dark mode
+     primary: custom
+     accent: custom
      toggle:
        icon: material/toggle-switch
        name: Switch to dark mode
+   
    - scheme: default #light mode
+     primary: custom
+     accent: custom
      toggle:
         icon: material/toggle-switch
         name: Switch to light mode
