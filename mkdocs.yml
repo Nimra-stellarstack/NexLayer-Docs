@@ -26,9 +26,9 @@ nav:
   - Quickstart: quickstart.md
   - FAQ: faq.md
   - Deployment YAML Docs:
-      - Overview: deployment-yaml/index.md
+      - Overview: deployment-yaml/README.md
   - API Reference:
-      - Overview: api-reference/index.md
+      - Overview: api-reference/api/README.md
 
 extra_css:
   - stylesheets/extra.css
