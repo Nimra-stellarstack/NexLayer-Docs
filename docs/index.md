@@ -4,6 +4,7 @@ description: "Welcome to the Nexlayer Developer Documentation!"
 ---
 
 ![Hero Light](assets/hero-light.svg)
+![Hero Dark](assets/hero-dark.svg)
 
 <!-- <img
   className="block dark:hidden"
@@ -11,11 +12,11 @@ description: "Welcome to the Nexlayer Developer Documentation!"
   alt="Hero Light"
 /> -->
 
-<img
+<!-- <img
   className="hidden dark:block"
-  src="/assets/hero-dark.svg"
+  src="assets/hero-dark.svg"
   alt="Hero Dark"
-/>
+/> -->
 
 Welcome to the Nexlayer Developer Documentation! This guide is your gateway to building and deploying cutting-edge full-stack web applications effortlessly. Whether you're a seasoned developer or just starting out, Nexlayer's streamlined workflows, powerful automation tools, and intuitive interfaces make deployment a breeze.
 
