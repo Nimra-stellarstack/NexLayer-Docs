@@ -15,20 +15,35 @@ theme:
      toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
 
 plugins:
   - search
   - monorepo:
 
+
 nav:
-  - Home: index.md
-  - Quickstart: quickstart.md
-  - FAQ: faq.md
-  - Deployment YAML Docs:
-      - Overview: deployment-yaml/README.md
-  - API Reference:
-      - Overview: api-reference/api/README.md
+  - Intro: 'index.md'
+  - Quickstart: 'quickstart.md'
+  - FAQ: 'faq.md'
+  - Deployment YAML Docs: '!include ./deployment-yaml/mkdocs.yml'
+  - API Reference: '!include ./api-reference/mkdocs.yml'
+  # - API:
+  #   - v1: '!include ./v1/mkdocs.yml'
+  #   - v2: '!include ./v2/mkdocs.yml'
+# nav:
+#   - Home: index.md
+#   - Quickstart: quickstart.md
+#   - FAQ: faq.md
+#   - Deployment YAML Docs:
+#       - Overview: '!include deployment-yaml/README.md'
+#   - API Reference:
+#       - Overview: api-reference/api/README.md
 
 extra_css:
   - stylesheets/extra.css

@@ -75,3 +75,8 @@
   .md-search__icon {
     color: rgb(30, 184, 205) !important;               /* Search icon color */
   }
+  
+  .md-tabs{
+    background-color: rgb(30, 184, 205);
+    color : rgb(0, 0, 0)
+  }

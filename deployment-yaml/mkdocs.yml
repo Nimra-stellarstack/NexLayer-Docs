@@ -1,0 +1,5 @@
+site_name: deployment/yaml
+
+nav:
+  - Reference: "README.md"
+  
