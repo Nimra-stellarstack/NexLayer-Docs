@@ -76,7 +76,9 @@
     color: rgb(30, 184, 205) !important;               /* Search icon color */
   }
   
-  .md-tabs{
-    background-color: rgb(30, 184, 205);
+   .md-tabs{
+    background-color: rgba(30, 185, 205, 0.803);
     color : rgb(0, 0, 0)
-  }
+  } 
+  .md-tabs:hover{
+    color: rgb(25, 25, 25)!important}
