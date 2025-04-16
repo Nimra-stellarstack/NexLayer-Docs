@@ -1,4 +1,4 @@
-site_name: Documentation
+site_name: Nexlayer Docs
 site_url: https://docs.nexlayer.com
 
 theme:
@@ -25,14 +25,13 @@ theme:
 plugins:
   - search
   - monorepo:
-
-
+  
 nav:
-  - Intro: 'index.md'
+  - Introduction: 'index.md'
   - Quickstart: 'quickstart.md'
-  - FAQ: 'faq.md'
   - Deployment YAML Docs: '!include ./deployment-yaml/mkdocs.yml'
   - API Reference: '!include ./api-reference/mkdocs.yml'
+  - FAQ: 'faq.md'
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -58,7 +57,7 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 
 copyright: |
-  &copy; 2024 <a href="https://github.com/james-willett"  target="_blank" rel="noopener">James Willett</a>
+  &copy; 2025 <a href="https://github.com/Nexlayer/docs"  target="_blank" rel="noopener">Nexlayer</a>
 
 extra_css:
   - stylesheets/extra.css

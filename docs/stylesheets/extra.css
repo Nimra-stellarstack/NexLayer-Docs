@@ -81,7 +81,9 @@
     color : rgb(255, 255, 255)
   } 
   .md-tabs:hover{
-    color: rgb(255, 255, 255)!important}
+    color: rgb(255, 255, 255)!important
+  }
+
   .md-tabs__link--active {
     color: rgb(255, 255, 255) !important;
     font-size: larger;
@@ -91,3 +93,9 @@
   .md-tabs__link {
     transition: color 0.3s, font-weight 0.3s;
   }
+
+  * {
+    scrollbar-color: rgba(30, 185, 205) transparent;
+    scrollbar-width: thin;
+  }
+  

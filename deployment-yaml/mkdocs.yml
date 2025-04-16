@@ -1,5 +1,5 @@
-site_name: deployment/yaml
+site_name: deployment-yaml
 
 nav:
-  - Reference: "README.md"
+  - Deployment YAML Docs: "README.md"
   

@@ -1,5 +1,12 @@
-site_name: api/reference
+site_name: api-reference
 
 nav:
-  - Reference: "README.md"
+  - API Reference: "README.md"
+  - Guides:
+    - Quickstart: "guides/quickstart.md"
+    - Authentication: "guides/authentication.md"
+  - API: "api/README.md"
+  - SDK: "sdk/nodejs.md"
+
+
   
