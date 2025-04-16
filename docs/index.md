@@ -3,11 +3,14 @@ title: Introduction
 description: "Welcome to the Nexlayer Developer Documentation!"
 ---
 
-<img
+![Hero Light](assets/hero-light.svg)
+
+<!-- <img
   className="block dark:hidden"
   src="/assets/hero-light.svg"
   alt="Hero Light"
-/>
+/> -->
+
 <img
   className="hidden dark:block"
   src="/assets/hero-dark.svg"
