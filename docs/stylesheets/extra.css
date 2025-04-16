@@ -78,7 +78,16 @@
   
    .md-tabs{
     background-color: rgba(30, 185, 205, 0.65);
-    color : rgb(0, 0, 0)
+    color : rgb(255, 255, 255)
   } 
   .md-tabs:hover{
-    color: rgb(25, 25, 25)!important}
+    color: rgb(255, 255, 255)!important}
+  .md-tabs__link--active {
+    color: rgb(255, 255, 255) !important;
+    font-size: larger;
+    font-weight:900;
+  }
+  
+  .md-tabs__link {
+    transition: color 0.3s, font-weight 0.3s;
+  }
