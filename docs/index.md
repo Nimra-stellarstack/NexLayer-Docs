@@ -4,7 +4,8 @@ description: "Welcome to the Nexlayer Developer Documentation!"
 ---
 
 ![Hero Light](assets/hero-light.svg)
-![Hero Dark](assets/hero-dark.svg)
+
+<!-- ![Hero Dark](assets/hero-dark.svg) -->
 
 <!-- <img
   className="block dark:hidden"
