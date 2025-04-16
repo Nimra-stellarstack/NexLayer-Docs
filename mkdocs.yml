@@ -1,0 +1,34 @@
+site_name: Documentation
+site_url: https://docs.nexlayer.com
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  language: en
+  palette:
+   - scheme: slate #dark mode
+     toggle:
+       icon: material/toggle-switch
+       name: Switch to dark mode
+   - scheme: default #light mode
+     toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+plugins:
+  - search
+  - monorepo:
+
+
+nav:
+  - Home: index.md
+  - Quickstart: quickstart.md
+  - FAQ: faq.md
+  - Deployment YAML Docs:
+      - Overview: deployment-yaml/index.md
+  - API Reference:
+      - Overview: api-reference/index.md
+
+extra_css:
+  - stylesheets/extra.css
