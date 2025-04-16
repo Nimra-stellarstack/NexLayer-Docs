@@ -1,6 +1,6 @@
-[submodule "external/deployment-yaml"]
-	path = external/deployment-yaml
+[submodule "deployment-yaml"]
+	path = deployment-yaml
 	url = https://github.com/Nexlayer/nexlayer-deployment-yaml
-[submodule "external/api-reference"]
-	path = external/api-reference
+[submodule "api-reference"]
+	path = api-reference
 	url = https://github.com/Nexlayer/api-reference
